@@ -13,7 +13,7 @@ st.set_page_config(
 )
 
 # File path
-DATA_FILE = "news_political_data.csv"
+DATA_FILE = "statistics/news_political_data.csv"
 
 # Dictionary mapping state names to their abbreviations
 STATE_ABBREV = {

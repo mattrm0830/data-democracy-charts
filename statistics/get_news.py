@@ -292,7 +292,7 @@ def compile_news_political_data():
     
     if not df.empty:
         # Save the processed data
-        df.to_csv('statistics/news_political_data.csv', index=False)
+        df.to_csv('news_political_data.csv', index=False)
         print(f"\nSaved {len(df)} processed articles with state mentions to statistics/news_political_data.csv")
     else:
         print("\nNo articles with state mentions were found.")
